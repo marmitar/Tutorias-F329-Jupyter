@@ -14,7 +14,7 @@
 }
 
 div.cell { /* set cell width */
-    width: 750px;
+    width: 900px;
 }
 
 div #notebook { /* centre the content */
@@ -29,14 +29,14 @@ margin-top:0.8em;
 }
 
 /* draw border around running cells */
-div.cell.border-box-sizing.code_cell.running { 
+div.cell.border-box-sizing.code_cell.running {
     border: 1px solid #111;
 }
 
 /* Put a solid color box around each cell and its output, visually linking them*/
 div.cell.code_cell {
-    background-color: rgb(256,256,256); 
-    border-radius: 0px; 
+    background-color: rgb(256,256,256);
+    border-radius: 0px;
     padding: 0.5em;
     margin-left:1em;
     margin-top: 1em;
@@ -57,7 +57,7 @@ div.text_cell_render{
 .text_cell_render h1 {
     font-family: 'Alegreya Sans', sans-serif;
     font-style:regular;
-    font-weight: 200;    
+    font-weight: 200;
     font-size: 50pt;
     line-height: 100%;
     color:#CD2305;
@@ -126,7 +126,7 @@ div.text_cell_render{
 <script>
     MathJax.Hub.Config({
                         TeX: {
-                           extensions: ["AMSmath.js"], 
+                           extensions: ["AMSmath.js"],
                            equationNumbers: { autoNumber: "AMS", useLabelIds: true}
                            },
                         tex2jax: {
